@@ -13,6 +13,7 @@ a:hover,a:focus{color:inherit;text-decoration:none;}
 .flex-row .nav-link{padding-left:0.5rem;padding-right:0.5rem;}
 .cNavbar{background:#002851;color:#fff;}
 .navbar{background:inherit;background:#fff;min-height:4rem;}
+.navbar h1{margin:0 0 -1px 0}
 .navbar-brand{font-weight:bold;}
  .navbar-brand:hover{text-decoration:none;}
  .navbar-brand img{max-height:40px;vertical-align:-10px;display:inline-block;}
@@ -23,7 +24,7 @@ a:hover,a:focus{color:inherit;text-decoration:none;}
  .app-content::after{display:block;content:"";clear:both;}
 .app-header{position:fixed;top:0;left:0;right:0;margin:inherit;z-index:1020;}
  .app-header ~ .app-body{padding-top:4rem;}
-.app-body h4{font-size:18px;padding:10px 10px 0px;}
+.app-body .h4heading{font-size:18px;padding:10px 10px 0px;}
 @media (min-width:992px){.app-aside{opacity:1;display:block !important;}
  .app-aside{width:12.5rem;}
  .app-aside:not(.hide) ~ .app-content{margin-left:12.5rem;}
